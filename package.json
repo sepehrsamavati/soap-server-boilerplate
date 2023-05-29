@@ -1,0 +1,38 @@
+{
+  "name": "soap-server-boilerplate",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/soap/server.js",
+    "start:ts": "ts-node ./src/soap/server.ts",
+    "start:build": "npm run build && npm run start",
+    "build": "tsc",
+    "test:type": "tsc --noEmit",
+    "test:types": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "Sepehr Samavati",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sepehrsamavati/soap-server-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sepehrsamavati/soap-server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sepehrsamavati/soap-server-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "soap": "^1.0.0",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
