@@ -1,4 +1,5 @@
 import soap from "soap";
+import 'reflect-metadata';
 import fs from "node:fs/promises";
 import config from "../config.js";
 import services from "./services/index.js";

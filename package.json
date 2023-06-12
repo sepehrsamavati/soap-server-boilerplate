@@ -2,7 +2,6 @@
   "name": "soap-server-boilerplate",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node ./dist/soap/server.js",
@@ -24,8 +23,11 @@
   },
   "homepage": "https://github.com/sepehrsamavati/soap-server-boilerplate#readme",
   "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "reflect-metadata": "^0.1.13",
     "soap": "^1.0.0",
     "winston": "^3.9.0"
   },
